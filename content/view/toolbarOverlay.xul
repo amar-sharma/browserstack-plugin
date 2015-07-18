@@ -7,7 +7,7 @@
  
 <overlay id="toolbar_overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <toolbar id="toolbar2">
-        <toolbarseparator id="preflight-separator" insertafter="record-button"/>
-        <toolbarbutton id="preflight-button" insertafter="preflight-separator" label="&preflightButton.tooltip;" class="icon" tooltiptext="&preflightButton.tooltip;" command="cmd_selenium_testrunner"/>
+        <toolbarseparator id="browserstack-separator" insertafter="record-button"/>
+        <toolbarbutton id="browserstack-button" insertafter="browserstack-separator" label="&browserstackButton.tooltip;" class="icon" tooltiptext="&browserstackButton.tooltip;" command="cmd_selenium_testrunner"/>
     </toolbar>
 </overlay>

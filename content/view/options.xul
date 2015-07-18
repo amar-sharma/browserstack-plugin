@@ -13,8 +13,8 @@
   <prefpane id="preflight-panel" label="BrowserStack Settings"> 
  
     <preferences>
-      <preference id="auth_automate" name="extensions.selenium-ide.browserstack.username" type="text" />
-      <preference id="auth_automate" name="extensions.selenium-ide.browserstack.key" type="text" />
+      <preference id="auth_username" name="extensions.selenium-ide.browserstack.username" type="string" />
+      <preference id="auth_key" name="extensions.selenium-ide.browserstack.key" type="string" />
     </preferences>
  
     <tabbox>  
@@ -26,11 +26,11 @@
           <vbox flex="1">
             <hbox align="center">
               <label control="name" value="&username;"/>
-              <textbox preference="auth_automate" id="username" />
+              <textbox preference="auth_username" id="username" />
             </hbox>
             <hbox align="center">
               <label control="name" value="&key;"/>
-              <textbox preference="aut_automate" id="key" />
+              <textbox preference="auth_key" id="key" />
             </hbox>
             <spacer height="100" />
           </vbox>
