@@ -3,3 +3,5 @@ content browserstack  chrome/content/
 locale  browserstack  en-US chrome/locale/en-US/
  
 overlay chrome://selenium-ide/content/selenium-ide-common.xul chrome://browserstack/content/view/optionsOverlay.xul
+
+overlay chrome://selenium-ide/content/selenium-ide.xul chrome://browserstack/content/view/toolbarOverlay.xul
