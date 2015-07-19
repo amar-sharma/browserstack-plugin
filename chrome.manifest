@@ -8,3 +8,7 @@ overlay chrome://selenium-ide/content/selenium-ide.xul chrome://browserstack/con
 
 # sidebar button
 overlay chrome://selenium-ide/content/selenium-ide-sidebar.xul chrome://browserstack/content/view/sidebarToolbarOverlay.xul
+
+# overlay chrome://selenium-ide/content/selenium-ide-overlay.xul chrome://browserstack/content/view/extension-loader.xul
+
+overlay chrome://selenium-ide/content/selenium-ide-overlay.xul chrome://browserstack/content/formats/format-loader.xul

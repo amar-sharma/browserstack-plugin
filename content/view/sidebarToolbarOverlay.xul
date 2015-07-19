@@ -4,7 +4,7 @@
 <?xml-stylesheet href="toolbar.css" type="text/css"?>
  
 <!DOCTYPE prefwindow SYSTEM "chrome://browserstack/locale/ui.dtd">
- 
+
 <overlay id="browserstack_sidebar_overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <toolbar id="sidebarToolbar_controls">
         <toolbarseparator id="browserstack-separator" insertafter="record-button" />
