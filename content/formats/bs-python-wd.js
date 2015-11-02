@@ -9,6 +9,8 @@
  os = "Windows",
  os_version = "8.1",
  resolution = "1024x768";
+ build = "verison 1"
+ project = "BS Formatter";
 
 function testClassName(testName) {
   return testName.split(/[^0-9A-Za-z]+/).map(
@@ -302,8 +304,10 @@ this.options = {
           'class ${className}(unittest.TestCase):\n' +
           '    def setUp(self):\n' +
           '        desired_cap = {"browser":  "'+browser+'", "browser_version":  "'+browser_version+'", "os":  "'+os+'", "os_version": "'+os_version+'", "resolution": "'+resolution+'"}\n'+
+          '        desired_cap["build"] = "'+build+'"\n' +
+          '        desired_cap["project"] = "'+project+'"\n' +
           '        self.driver = webdriver.Remote(command_executor=\'http://'+uname+':'+key+'@hub.browserstack.com:80/wd/hub\',desired_capabilities=desired_cap)\n' +
-          '        self.driver.implicitly_wait(30)\n' +
+          '        self.driver.implicitly_wait(3)\n' +
           '        self.base_url = "${baseURL}"\n' +
           '        self.verificationErrors = []\n' +
           '        self.accept_next_alert = True\n' +
